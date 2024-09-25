@@ -6,6 +6,7 @@ import com.shadril238.generics.GenericList;
 import com.shadril238.generics.Instructor;
 import com.shadril238.generics.User;
 import com.shadril238.generics.Utils;
+import com.shadril238.lambdas.LambdasDemo;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -56,5 +57,8 @@ public class Main {
 
         // Map
         MapDemo.show();
+
+        // Lambdas and Functional Interfaces
+        LambdasDemo.show();
     }
 }
