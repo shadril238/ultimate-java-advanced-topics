@@ -7,6 +7,7 @@ import com.shadril238.generics.Instructor;
 import com.shadril238.generics.User;
 import com.shadril238.generics.Utils;
 import com.shadril238.lambdas.LambdasDemo;
+import com.shadril238.streams.StreamsDemo;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -60,5 +61,9 @@ public class Main {
 
         // Lambdas and Functional Interfaces
         LambdasDemo.show();
+
+
+        // Streams
+        StreamsDemo.show();
     }
 }
