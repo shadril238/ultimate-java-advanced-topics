@@ -1,6 +1,7 @@
 package com.shadril238;
 
 import com.shadril238.collections.*;
+import com.shadril238.concurrency.ThreadDemo;
 import com.shadril238.exceptions.ExceptionsDemo;
 import com.shadril238.generics.GenericList;
 import com.shadril238.generics.Instructor;
@@ -65,5 +66,8 @@ public class Main {
 
         // Streams
         StreamsDemo.show();
+
+        // Concurrency and Multithreading
+        ThreadDemo.show();
     }
 }
