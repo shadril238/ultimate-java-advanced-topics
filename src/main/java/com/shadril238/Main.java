@@ -3,7 +3,9 @@ package com.shadril238;
 import com.shadril238.collections.*;
 import com.shadril238.concurrency.ThreadDemo;
 import com.shadril238.exceptions.ExceptionsDemo;
+import com.shadril238.executors.CompletableFuturesDemo;
 import com.shadril238.executors.ExecutorsDemo;
+import com.shadril238.executors.MailService;
 import com.shadril238.generics.GenericList;
 import com.shadril238.generics.Instructor;
 import com.shadril238.generics.User;
@@ -73,5 +75,19 @@ public class Main {
 
         // Executors
         ExecutorsDemo.show();
+
+        // CompletableFuture
+        CompletableFuturesDemo.show();
+
+        // Implementing Async API
+        var service = new MailService();
+        service.sendAsync();
+        System.out.println("Hello World");
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

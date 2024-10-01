@@ -29,7 +29,5 @@ public class ExecutorsDemo {
         } finally {
             executor.shutdown(); // shutdown() method is used to shutdown the thread pool.
         }
-
-
     }
 }
