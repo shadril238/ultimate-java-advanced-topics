@@ -3,6 +3,7 @@ package com.shadril238;
 import com.shadril238.collections.*;
 import com.shadril238.concurrency.ThreadDemo;
 import com.shadril238.exceptions.ExceptionsDemo;
+import com.shadril238.executors.ExecutorsDemo;
 import com.shadril238.generics.GenericList;
 import com.shadril238.generics.Instructor;
 import com.shadril238.generics.User;
@@ -69,5 +70,8 @@ public class Main {
 
         // Concurrency and Multithreading
         ThreadDemo.show();
+
+        // Executors
+        ExecutorsDemo.show();
     }
 }
